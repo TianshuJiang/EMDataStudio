@@ -1,0 +1,16 @@
+name: EMDataStudio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14.4
+  - numpy=2.4.3
+  - scipy=1.17.1
+  - matplotlib=3.10.8
+  - h5py=3.16.0
+  - pyqt=5.15.11
+  - hyperspy=2.4.0
+  - rosettasciio-base>=0.10.0
+  - exspy=0.3.2
+  - pip=26.0.1
+  
