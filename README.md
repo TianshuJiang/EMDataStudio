@@ -18,7 +18,7 @@ It is built for workflows that combine HAADF/STEM and EELS signals, with multi-w
 Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/<your-account>/EMDataStudio.git
+git clone https://github.com/TianshuJiang/EMDataStudio.git
 ```
 
 ### Install
@@ -91,7 +91,7 @@ EMDataStudio/
 
 ## Acknowledgment
 
-Built for MEMS-based in situ TEM/STEM ferroelectric characterization workflows.
+Built for processing atomically resolved, multi-frame in situ STEM-EELS datasets.
 
 ## License
 
