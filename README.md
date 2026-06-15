@@ -23,13 +23,7 @@ git clone https://github.com/TianshuJiang/EMDataStudio.git
 
 ### Install
 
-On Windows, the easiest path is the bundled installer:
-
-1. Install Anaconda or Miniconda.
-2. Run `install/install.bat`.
-3. Wait until the environment setup finishes.
-
-You can also create the environment manually:
+Install Anaconda or Miniconda, then create the environment from `environment.yml`:
 
 ```bash
 conda env create -f install/environment.yml
@@ -69,7 +63,6 @@ EMDataStudio/
 |-- main.py
 |-- README.md
 |-- install/
-|   |-- install.bat
 |   |-- run.bat
 |   `-- environment.yml
 |-- src/
@@ -85,7 +78,7 @@ EMDataStudio/
 
 ## Notes
 
-- The project uses pinned dependencies for reproducible setup.
+- The project uses compatibility-constrained conda dependencies for stable setup across machines.
 - ROI operations are synchronized with HyperSpy ROI objects and shown in MDI thumbnails.
 - HyperSpy signal comparisons in the app use identity checks to avoid dimension-comparison errors.
 
